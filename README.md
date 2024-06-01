@@ -14,7 +14,7 @@ Mr Peter AkersさんのWiTcontrollerをESP32C3で使えるように修正しま�
 This project deals with two types of devices: <BR>
 OLED Display 0.96" 128x64 Blue I2C IIC SSD1306 <BR>
 and<BR> 
-TFT LCD Display 1.44-inch 128x128 ST7735.<BR>
+TFT LCD Display 1.44-inch 128x128 ST7735<BR>
 For the latter, please refer to the branch.<BR> 
 <BR>
 For operation instructions and menu expansion, please refer to the original URL below.<BR>
@@ -37,13 +37,15 @@ Compared to ESP32, it has the following limitations:<BR>
 - Not scalable due to limited number of I/Os.<BR>
 - Returning from sleep requires turning the power back on.<BR>
 * ST7735 *<BR>
+There are some limitations compared to the 128x64 SSD1306:<BR>
+- The LED power on the ST7735 cannot be turned off, so you must turn it off manually.<BR>
 <BR>
 * ESP32C3 *<BR>
 ESP32とに比較として次の制限があります。<BR>
 - I/Oの数が限定されるために拡張性がありません。<BR>
 - スリープからの復帰には電源の再投入が必要です。<BR>
 * ST7735 *<BR>
-128x64 SSD1366と比較して次の制限があります。<BR>
+128x64 SSD1306と比較して次の制限があります。<BR>
 - ST7735のLED電源はきれません。つまり手動でOFFしてください。<BR>
 
 <h2>Hardware</h2>
@@ -51,8 +53,9 @@ have created several Wifi Throttles so far.<BR>
 I have made this compatible with three of them.<BR>
 <BR>
 私はこれまでに複数のWifi Throttleを作成してきました。<BR>
-そのうちの３種類に対応させています。<BR>
-<BR>
+そのうちの３種類に対応させています。<BR> <BR>
+
+
 
 *Photo01 P004*
 ![Photo](HMX_P004_Photo01.jpg)

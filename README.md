@@ -53,13 +53,21 @@ I have made this compatible with three of them.<BR>
 私はこれまでに複数のWifi Throttleを作成してきました。<BR>
 そのうちの３種類に対応させています。<BR>
 <BR>
-## HMX P008
-*Photo01*
+
+*Photo01 P004*
+![Photo](HMX_P004_Photo01.jpg)
+
+*Photo02 P008*
 ![Photo](HMX_P008_Photo01.jpg)
 
-*Photo02*
+*Photo03 Diagram*
 ![Wire Drawing](HMX_P004_DWG.jpg)
 
+*Photo04 P026*
+![Photo](HMX_P026_Photo01.jpg)
+
+*Photo05 Diagram*
+![Wire Drawing](HMX_P026_DWG.jpg)
 
 ### V1.45
 - Diverged from the original

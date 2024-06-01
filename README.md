@@ -16,6 +16,7 @@ OLED Display 0.96" 128x64 Blue I2C IIC SSD1306 <BR>
 and<BR> 
 TFT LCD Display 1.44-inch 128x128 ST7735<BR>
 For the latter, please refer to the branch.<BR> 
+https://github.com/HMX-1972/WiTcontroller_for_ESP32C3/blob/ST7735-128x128-TFT/
 <BR>
 For operation instructions and menu expansion, please refer to the original URL below.<BR>
 https://github.com/flash62au/WiTcontroller<BR>
@@ -26,6 +27,7 @@ OLED Display 0.96" 128x64 Blue I2C IIC SSD1306<BR>
 TFT LCD Display　1.44-inch 128x128 ST7735<BR>
 の2種類を扱っています。<BR>
 後者はbranchを参照してください。<BR>
+https://github.com/HMX-1972/WiTcontroller_for_ESP32C3/blob/ST7735-128x128-TFT/
 <BR>
 操作方法やメニューの拡張などはオリジナルである次のURLを参照ください<BR>
 https://github.com/flash62au/WiTcontroller<BR>
